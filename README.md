@@ -28,3 +28,6 @@ def  89.5
 fgh  262.0
 ffg  90.5
 ```
+
+- Each department -> total count
+`collect(Collectors.groupingBy(Student::getDepartment, Collectors.counting()))`
